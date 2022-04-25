@@ -1,0 +1,16 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "Restful_api",
+    "password": "asdf",
+    "database": "Post",
+    "synchronize": true,
+    "logging": true,
+    "ssl": {
+        "rejectUnauthorized": false
+    },
+    "entities": [
+        "dist/entity/**/*.js"
+    ]
+}
